@@ -16,6 +16,7 @@ replay_pid*
 .gradle/
 build/
 out/
+bin/
 # Keep the Gradle Wrapper in VCS (do NOT ignore these two files):
 !gradle/wrapper/gradle-wrapper.jar
 !gradle/wrapper/gradle-wrapper.properties
