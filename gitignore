@@ -1,0 +1,59 @@
+# ===== Kotlin / Java =====
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# ===== Gradle =====
+.gradle/
+build/
+out/
+# Keep the Gradle Wrapper in VCS (do NOT ignore these two files):
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# If you publish distributions/libs
+/distributions/
+/libs/
+
+# ===== IntelliJ IDEA / JetBrains =====
+.idea/
+*.iml
+*.ipr
+*.iws
+# Optional: run configurations (ignore if private)
+.run/
+
+# ===== VS Code (если открываешь проект и там) =====
+.vscode/
+
+# ===== Kotlin compiler caches =====
+.kotlinc/
+.kts_compiler_*
+
+# ===== Logs / temp =====
+*.log
+logs/
+tmp/
+.temp/
+*.tmp
+
+# ===== OS-specific =====
+.DS_Store
+Thumbs.db
+
+# ===== Env / secrets =====
+.env
+.env.*
+
+# ===== Project-specific artifacts =====
+pawns.jar
+build/dokka/
