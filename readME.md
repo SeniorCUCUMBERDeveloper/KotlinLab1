@@ -129,4 +129,9 @@ JAVADOC_AUTOBRIEF      = YES
 EXTRACT_ALL            = YES
 ```
 
+Сборка Doxygen:
+```bash
+doxygen Doxyfile
+```
+
 ---
